@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* ============= 
+Reuse abale start
+============= */
+.title{
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.title::before{
+    content: '';
+    width: 200px;
+    height:5px;
+    background:#42275a ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(65px);
+}
+.title::after{
+    content: '';
+    width: 40px;
+    height:15px;
+    background:#42275a ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+/* <h1 class="title text-center">whta we do ?</h1> */
+
+
+/* ============= 
+Reuse abale End
+============= */
+
+/* =================
+Navbar section start
+===================== */
+#nav-bar{
+    position: static;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background: linear-gradient(to right, #42275a, #734b6d);
+    padding: 0;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a {
+   color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler{
+    outline: none !important;
+    font-size: 20px;
+}
+.navbar-toggler i{
+    color: #fff;
+}
+
+
+/* =================
+Navbar section end
+===================== */
+
+/* =================
+Banner section start
+===================== */
+#banner{
+   background: linear-gradient(to right, #42275a, #734b6d);
+   color: #fff;
+   padding-top: 5%;
+}
+#banner a{
+    text-decoration: none;
+    color: #fff;
+}
+.bn-head{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+.banner-para{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.play-btn{ 
+    width: 45px;
+    margin: 25px;
+}
+.bottom-img{
+    width: 100%;
+    margin-right:auto;
+}
+
+/* =================
+Banner section end
+===================== */
+
+/* =================
+Services section end
+===================== */
+#service{
+    padding: 100px 0;
+}
+.serviceRow{
+
+}
+.serviceRow img{
+  width:50%;
+  padding: 30px;
+  margin-top: 20px;
+}
+.serviceRow h2{
+   font-weight: 600;
+   text-transform: uppercase;
+   padding-bottom: 15px;
+}
+serviceRow p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.btn-services{
+    height: 50px;
+    width: 30%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #42275a, #734b6d);
+    color: #fff;
+     margin-top: 80px;
+     text-transform:uppercase ;
+}
+
+/* =================
+Services  section end
+===================== */
+
+
+/* =================
+   Choose   section start
+===================== */
+#choose{
+    padding-top: 15%;
+    padding-bottom:15%;
+    background: #EEEEEE;
+   
+}
+.choose-content{
+    padding-top: 30px;
+}
+.choose-text h1{
+    padding: 20px 0;
+    font-weight: 600;
+}
+.choose-text ul{
+ margin-left: 20px;
+}
+.choose-text ul li{
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+
+/* =================
+   Choose  section end
+===================== */
+
+
+/* =================
+Testomonial  section Strat
+===================== */
+#testomonial{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.testomonial-content {
+    border-left: 5px #42275a solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testomonial-content img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10 10px;
+
+}
+.user-name{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/* =================
+ Testomonial  section end
+===================== */
+
+/* =================
+ Social media  section end
+===================== */
+#social-media{
+    background: #f8f3fa;
+}
+.social-icon  img{
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    transition: .5s;
+}
+.social-icon  img:hover{
+    transform:translateY(-10px);
+}   
+
+/* =================
+ Social media section end
+===================== */
+
+/* =================
+ footer section start
+===================== */
+#footer{
+    background: linear-gradient(to right, #42275a, #734b6d);
+    color: #fff;
+}
+/* =================
+ footer section end
+===================== */
